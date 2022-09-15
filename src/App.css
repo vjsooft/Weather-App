@@ -1,0 +1,72 @@
+.cus-weather-bg{
+  background: #202123;
+  color: #fff;
+  height: 100vh;
+}
+.cus-top-icon{
+  width: 75px;
+  height: 55px;
+  margin-right: 15px;
+}
+.form-control{
+  width: 250px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.cus-cloud-box {
+  width: 210px;
+    box-shadow: 1px 1px 1px rgb(243 240 240 / 8%);
+    display: block;
+    border-radius: 10px;
+    background: rgb(243 240 240 / 8%);
+    padding: 15px;
+    margin: 0 auto 15px;
+}
+.cus-list-icon{
+  width: 90px;
+  margin: 0 auto;
+}
+.cus-temp_max{
+  display: inline-block;
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .visible-phone{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .form-control {
+      width: 230px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:1024px) {
+  .form-control {
+      width: 150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hidden-phone{
+    display: none !important;
+  }
+  .visible-phone{
+    display: block !important;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .cus-display-data{
+    text-align: center;
+    margin: 15px 0;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 575px) {
+  .justify-content-xs-center{
+    justify-content: center;
+  }
+}
